@@ -9,15 +9,15 @@ class DataSource {
         fun getPokemons():ArrayList<Pokemon>{
             var pokemons = ArrayList<Pokemon>()
 
-            pokemons.add(Pokemon(1,"Bulbassaur","Grass&Poison"))
-            pokemons.add(Pokemon(2,"Ivyssaur","Grass&Poison"))
-            pokemons.add(Pokemon(3,"Venonssaur","Grass&Poison"))
-            pokemons.add(Pokemon(4,"Squirtle","Water"))
-            pokemons.add(Pokemon(5,"Wartottle","Water"))
-            pokemons.add(Pokemon(6,"Blastoise","Water"))
-            pokemons.add(Pokemon(7,"Charmander","Fire"))
-            pokemons.add(Pokemon(8,"Charmeleon","Fire"))
-            pokemons.add(Pokemon(9,"Charizard","Fire&Flying"))
+            pokemons.add(Pokemon(1,"Bulbassaur",4.0f,"Grass&Poison"))
+            pokemons.add(Pokemon(2,"Ivyssaur",4.0f,"Grass&Poison"))
+            pokemons.add(Pokemon(3,"Venonssaur",5.0f,"Grass&Poison"))
+            pokemons.add(Pokemon(4,"Squirtle",3.0f,"Water"))
+            pokemons.add(Pokemon(5,"Wartottle",3.0f,"Water"))
+            pokemons.add(Pokemon(6,"Blastoise",4.5f,"Water"))
+            pokemons.add(Pokemon(7,"Charmander",4.0f,"Fire"))
+            pokemons.add(Pokemon(8,"Charmeleon",4.0f,"Fire"))
+            pokemons.add(Pokemon(9,"Charizard",5.0f,"Fire&Flying"))
 
             return pokemons
 
