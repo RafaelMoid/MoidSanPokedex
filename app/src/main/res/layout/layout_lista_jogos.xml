@@ -24,8 +24,20 @@
             />
 
         <TextView
-            android:layout_width=""
-            android:layout_height=""
+            android:id="@+id/textNomeDoPokemon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Nome do pokemon"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image"
+            />
+
+        
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
