@@ -20,7 +20,8 @@ class PokemonsAdapter(var listaPokemons: ArrayList<Pokemon>) : RecyclerView.Adap
     }
 
     override fun onBindViewHolder(holder: PokemonViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        val pokemon = listaPokemons[position]
+        holder.bind(pokemon)
     }
 
     override fun getItemCount(): Int {
