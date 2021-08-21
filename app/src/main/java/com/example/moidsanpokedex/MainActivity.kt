@@ -3,6 +3,8 @@ package com.example.moidsanpokedex
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.moidsanpokedex.adapter.PokemonsAdapter
+import com.example.moidsanpokedex.datasource.DataSource
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun iniciarRecyclerView() {
-        val recyclerView = recyclerViewPokemons
-        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerViewPokemons.layoutManager = LinearLayoutManager(this)
+        recyclerViewPokemons.adapter = PokemonsAdapter(DataSource.getPokemons())
     }
 }
