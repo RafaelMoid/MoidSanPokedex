@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun iniciarRecyclerView() {
-        recyclerViewPokemons.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        recyclerViewPokemons.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         recyclerViewPokemons.adapter = PokemonsAdapter(DataSource.getPokemons())
     }
 }
