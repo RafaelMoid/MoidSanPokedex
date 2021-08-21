@@ -1,25 +1,22 @@
 package com.example.moidsanpokedex.adapter
 
+import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.moidsanpokedex.R
 import com.example.moidsanpokedex.model.Pokemon
 import kotlinx.android.synthetic.main.layout_lista_jogos.view.*
 
 
 class PokemonsAdapter(var listaPokemons: ArrayList<Pokemon>) : RecyclerView.Adapter<PokemonsAdapter.PokemonViewHolder>() {
 
-    class PokemonViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        fun bind(pokemon: Pokemon){
-            itemView.nomeDoPokemon.text = pokemon.pokemonName
-            itemView.pokemonType.text = pokemon.tipoDoPokemon
-            itemView.ratingBar.rating = pokemon.rating.toFloat()
 
-            }
-        }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PokemonViewHolder {
-        TODO("Not yet implemented")
+        val itemView = LayoutInflater.from(parent).inflate(R.layout.layout_lista_jogos, parent, false)
+
+        return PokemonViewHolder(itemView)
     }
 
     override fun onBindViewHolder(holder: PokemonViewHolder, position: Int) {
@@ -27,6 +24,15 @@ class PokemonsAdapter(var listaPokemons: ArrayList<Pokemon>) : RecyclerView.Adap
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return listaPokemons.size
+    }
+
+    class PokemonViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
+        fun bind(pokemon: Pokemon){
+            itemView.nomeDoPokemon.text = pokemon.pokemonName
+            itemView.pokemonType.text = pokemon.tipoDoPokemon
+            itemView.ratingBar.rating = pokemon.rating.toFloat()
+
+        }
     }
 }

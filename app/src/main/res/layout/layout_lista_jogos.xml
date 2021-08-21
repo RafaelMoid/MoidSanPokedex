@@ -45,7 +45,7 @@
             android:layout_marginLeft="8dp"
             android:text="Grass and Poison"
             android:textColor="@color/white"
-           app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/nomeDoPokemon"
             android:textSize="16dp"
