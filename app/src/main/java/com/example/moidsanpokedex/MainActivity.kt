@@ -16,6 +16,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun iniciarRecyclerView() {
         val recyclerView = recyclerViewPokemons
-        recyclerView.layoutManager = LinearLayoutManager
+        recyclerView.layoutManager = LinearLayoutManager(this)
     }
 }
