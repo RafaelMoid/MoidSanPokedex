@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MoidSanPokedex</string>
+    <string name="produtora_do_jogo">Produtora do jogo</string>
+    <string name="nome_do_jogo">Nome do jogo</string>
 </resources>

@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Rafael/AndroidStudioProjects/MoidSanPokedex/app/src/main/res/drawable/ic_baseline_photo_24.xml" value="0.10104166666666667" />
         <entry key="..\:/Users/Rafael/AndroidStudioProjects/MoidSanPokedex/app/src/main/res/layout/activity_cadastro_de_jogo.xml" value="0.21" />
         <entry key="..\:/Users/Rafael/AndroidStudioProjects/MoidSanPokedex/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Rafael/AndroidStudioProjects/MoidSanPokedex/app/src/main/res/layout/layout_lista_jogos.xml" value="0.22" />
