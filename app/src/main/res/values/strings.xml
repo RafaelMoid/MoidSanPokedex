@@ -2,4 +2,16 @@
     <string name="app_name">MoidSanPokedex</string>
     <string name="produtora_do_jogo">Produtora do jogo</string>
     <string name="nome_do_jogo">Nome do jogo</string>
+    <string name="console">Console:</string>
+    <string name="nota_do_jogo">Nota do jogo</string>
+    <string name="zerado">Zerado</string>
+
+    /* Criando uma string de arrays*/
+    <string-array name="consoles">
+        <item>Super nintendo</item>
+        <item>Wii U</item>
+        <item>Wii</item>
+        <item>Nintendo 3Ds</item>
+    </string-array>
+
 </resources>
