@@ -1,8 +1,9 @@
-package com.example.moidsanpokedex
+package com.example.moidsanpokedex.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.moidsanpokedex.R
 import com.example.moidsanpokedex.adapter.PokemonsAdapter
 import com.example.moidsanpokedex.datasource.DataSource
 import kotlinx.android.synthetic.main.activity_main.*
